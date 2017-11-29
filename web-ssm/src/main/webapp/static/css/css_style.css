@@ -1,0 +1,74 @@
+.menu-one {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    cursor: pointer;
+}
+
+    .menu-one .item {
+        display: block;
+        width: 100px;
+        height: 100px;
+        float: left;
+        color: #ffffff;
+    }
+
+        .menu-one .item:hover {
+            background-color: #e74c3c;
+        }
+
+        .menu-one .item.active {
+            background-color: #e74c3c;
+        }
+
+        .menu-one .item a {
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 150px;
+            text-align: center;
+            font-size: 20px;
+            color: #ffffff;
+            position: relative;
+        }
+
+            .menu-one .item a::after {
+                display: block;
+                width: 40px;
+                height: 40px;
+                content: '';
+                position: absolute;
+                top: 15px;
+                left: 30px;
+            }
+
+            .menu-one .item a.icon1::after {
+                background: url('../images/icon/1.png') center no-repeat;
+                background-size: cover;
+            }
+
+            .menu-one .item a.icon2::after {
+                background: url('../images/icon/2.png') center no-repeat;
+                background-size: cover;
+            }
+
+            .menu-one .item a.icon3::after {
+                background: url('../images/icon/3.png') center no-repeat;
+                background-size: cover;
+            }
+
+            .menu-one .item a.icon4::after {
+                background: url('../images/icon/4.png') center no-repeat;
+                background-size: cover;
+            }
+
+            .menu-one .item a.icon5::after {
+                background: url('../images/icon/5.png') center no-repeat;
+                background-size: cover;
+            }
+
+            .menu-one .item a.icon6::after {
+                background: url('../images/icon/6.png') center no-repeat;
+                background-size: cover;
+            }
