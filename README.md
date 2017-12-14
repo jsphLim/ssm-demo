@@ -21,8 +21,8 @@ SSM框架整合
             －项目主包
                 －controller
                 －mapper
-                －entity
-                －service
+                －dao
+                －service
         －web
             －WEB-INF
                 －log4j.properties
