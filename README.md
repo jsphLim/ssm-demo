@@ -15,14 +15,13 @@ SSM框架整合
 目前我也只刚刚写过一个用户登录的demo，在此记录一下。
 
 项目目录结构
-
     －LoginDemo
         －src
             －项目主包
                 －controller
                 －mapper
-                －dao
-                －service
+                －entity
+                －service
         －web
             －WEB-INF
                 －log4j.properties
